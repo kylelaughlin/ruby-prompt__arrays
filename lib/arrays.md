@@ -48,7 +48,10 @@ I could do it like this: my_array << 28.
 
 # Given the Array `["Laura", "Fiona", "Tori"]`, how would you replace `"Fiona"` with `"Florence"` so that you end up with `["Laura", "Florence", "Tori"]`?
 
-I would use a method that would iterate through the array and check for "Fiona". If "Fiona" is found then 
+A simple way to do this would be to utilize the index that "Fiona" is located and re-assign it. Say we set the 
+variable 'names' to the array above.  We would make the replacement by saying name[1] = "Florence". 
+
+I could also use a method that would iterate through the array and check for "Fiona". If "Fiona" is found then 
 it would be replaced with "Florence". To do this I would use the map method.  This method executes some block 
 of code on each element of an array (or other object) and outputting what is returned form the code block to its 
 respective location in the array. To accomplish the task given I would have my code block in the map function 
